@@ -1,0 +1,16 @@
+requests
+requests-cache
+lxml
+pytest
+jupyter
+pandas
+pandas-gbq
+bokeh
+ipyleaflet
+beakerx
+geopandas
+matplotlib
+descartes
+gmaps
+rtree  # requires sudo apt-get install libspatialindex-c4v5
+progress
