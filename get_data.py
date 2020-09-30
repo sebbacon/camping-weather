@@ -82,7 +82,7 @@ if __name__ == '__main__':
     with open("data2.csv", "w") as f:
         w = csv.writer(f)
         w.writerow(header)
-        start_date = date(19888, 8, 1)
+        start_date = date(1999, 10, 1)  # data doesn't start till just before this
         end_date = date(2008, 7, 31)
         urls = list(generate_urls(start_date, end_date))
         bar = Bar("Downloading", max=len(urls), suffix='%(eta_td)s')
